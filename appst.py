@@ -5,7 +5,7 @@ from PIL import Image
 import json
 
 # Load the TensorFlow Lite model
-interpreter = tf.lite.Interpreter(model_path='C:/Users/Admin/Desktop/crop_disease_detector/model.tflite')
+interpreter = tf.lite.Interpreter(model_path='model.tflite')
 interpreter.allocate_tensors()
 
 # Get the input and output details
