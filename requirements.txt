@@ -23,7 +23,9 @@ gast==0.4.0
 tensorflow==2.3.0
 streamlit==0.89.0
 Pillow==8.0.1  # Add other dependencies as needed
-
+streamlit
+tensorflow-cpu
+opencv-python
 google-auth==2.19.1
 google-auth-oauthlib==1.0.0
 google-pasta==0.2.0
